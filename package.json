@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/countydata",
+  "version": "1.0.0",
+  "description": "County Data is a simple tool for getting data about US counties. It returns information such as population, area, and more based on the county name provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/countydata-API.git"
+  },
+  "keywords": [
+    "county data"," county data api"," county data tool"," county data software"," county data service"," county data library"," county data sdk"," county data code"," county data script"," county data program"," county data application"," county data app"," county data utility"," county data helper"," county data helper tool"," county data helper software"," county data helper service"," county data helper library"," county data helper sdk"," county data helper code"," county data helper script"," county data helper program"," county data helper application"," county data helper app"," county data helper utility"," county data helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/countydata-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/countydata-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
