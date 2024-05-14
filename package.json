@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/countydata-API.git"
   },
   "keywords": [
-    "county data"," county data api"," county data tool"," county data software"," county data service"," county data library"," county data sdk"," county data code"," county data script"," county data program"," county data application"," county data app"," county data utility"," county data helper"," county data helper tool"," county data helper software"," county data helper service"," county data helper library"," county data helper sdk"," county data helper code"," county data helper script"," county data helper program"," county data helper application"," county data helper app"," county data helper utility"," county data helper"
+    "county data","county data api","county data tool","county data software","county data service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
