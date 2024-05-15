@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/countydata",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "County Data is a simple tool for getting data about US counties. It returns information such as population, area, and more based on the county name provided.",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/apiverve/countydata-API",
   "devDependencies": {
-    "mocha": "^2.3.4",
-    "chai": "^3.4.1",
-    "dotenv": "^2.0.0"
+    "mocha": "^10.4.0",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
   },
   "dependencies": {
     "node-fetch": "3.3.2",
-    "promise": "^7.1.1",
-    "axios": "^0.15.3"
+    "promise": "^8.3.0",
+    "axios": "1.6.8"
   }
 }
