@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/countydata",
-  "version": "1.0.2",
-  "description": "County Data is a simple tool for getting data about US counties. It returns information such as population, area, and more based on the county name provided.",
+  "version": "1.0.3",
+  "description": "County Data is a simple tool for getting data about US counties. It returns information such as average income, area, and more based on the county name provided.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
