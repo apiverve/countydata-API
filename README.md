@@ -1,7 +1,7 @@
 County Data Lookup API
 ============
 
-County Data is a simple tool for getting data about US counties. It returns information such as population, area, and more based on the county name provided.
+County Data is a simple tool for getting data about US counties. It returns information such as average income, area, and more based on the county name provided.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
@@ -75,44 +75,67 @@ api.execute(query, function (error, data) {
     "name": "jackson county",
     "state": "MO",
     "age": {
+      "0-4": 0.0644100874666257,
+      "5-9": 0.06532756955438819,
+      "10-14": 0.065950603902357144,
+      "15-19": 0.05967616438434107,
+      "20-24": 0.059725950234064615,
+      "25-29": 0.081924749399369279,
+      "30-34": 0.075233531196524664,
+      "35-39": 0.06868029092005673,
+      "40-44": 0.058310609649066661,
+      "45-49": 0.058805623240603636,
+      "50-54": 0.05858087569042305,
+      "55-59": 0.0674783182624454,
+      "60-64": 0.062084377058111463,
+      "65-69": 0.05099777955110233,
+      "70-74": 0.038915465049622268,
+      "75-79": 0.026437708656052324,
+      "80-84": 0.017489057781457189,
       "85+": 0.019971238003388282
     },
     "male": 339932,
     "female": 363079,
     "deaths": {
       "suicides": 106.71428571428571,
-      "firearm suicides": 55.095238095238095,
       "homicides": 115.42857142857143,
-      "vehicle": 93
+      "vehicle": 93,
+      "firearmsuicides": 55.095238095238095
     },
-    "avg_income": 47054,
     "health": {
-      "poorHealth": 20.588989742,
-      "physicallyUnhealthyDays": 4.247736361,
-      "mentallyUnhealthyDays": 4.8111015035,
-      "lowBirthweightPercent": 9.1518749808,
-      "smokersPercent": 20.957241772,
-      "obesityPercent": 31.5,
-      "foodEnvIndex": 7.5,
-      "physicallyInactivePercent": 23.2,
-      "excessiveDrinkingPercent": 18.940103365,
-      "Teen Birth Rate": 31.109351559,
-      "% Uninsured": 12.486314662,
-      "% With Annual Mammogram": 45,
-      "% Vaccinated": 51,
-      "% Children in Poverty": 19.6,
-      "80th Percentile Income": 108296,
-      "20th Percentile Income": 23275,
-      "Violent Crime Rate": 941.43198334,
-      "Average Daily PM2.5": 9.1,
-      "% Severe Housing Problems": 15.347550638,
-      "% Drive Alone to Work": 83.470246386
+      "poorhealth": 20.588989742,
+      "physicallyunhealthydays": 4.247736361,
+      "mentallyunhealthydays": 4.8111015035,
+      "lowbirthweightpercent": 9.1518749808,
+      "smokerspercent": 20.957241772,
+      "obesitypercent": 31.5,
+      "foodenvindex": 7.5,
+      "physicallyinactivepercent": 23.2,
+      "excessivedrinkingpercent": 18.940103365,
+      "alcoholimpaireddrivingdeaths": 152,
+      "teenbirthrate": 31.109351559,
+      "uninsured": 12.486314662,
+      "withannualmammogram": 45,
+      "vaccinated": 51,
+      "childreninpoverty": 19.6,
+      "80thpercentileincome": 108296,
+      "20thpercentileincome": 23275,
+      "childreninsingleparenthouseholds": 33.224850811,
+      "violentcrimerate": 941.43198334,
+      "averagedailypm25": 9.1,
+      "severehousingproblems": 15.347550638,
+      "drivealonetowork": 83.470246386,
+      "longcommutedrivesalone": 33.7
     },
-    "landAreaKM2": 1565.601892,
-    "areaKM2": 1596.319707,
     "longitude": -94.347496655033936,
     "latitude": 39.016701918102484,
-    "zipCodes": [
+    "education": {
+      "lessthanhighschool": 9.4,
+      "highschool": 28.3,
+      "somecollege": 30.7,
+      "bachelors": 31.6
+    },
+    "zipcodes": [
       "64137",
       "64111",
       "64053",
@@ -193,21 +216,18 @@ api.execute(query, function (error, data) {
       "64065",
       "64198"
     ],
-    "lifeExpectancy": 77.19,
-    "education": {
-      "bachelors+": 31.6,
-      "lessThanHighSchool": 9.4,
-      "highSchool": 28.3,
-      "someCollege": 30.7
+    "lifeexpectancy": 77.19,
+    "avgincome": 47054,
+    "povertyrate": 13.7,
+    "costofliving": {
+      "livingwage": 14.55,
+      "foodcosts": 3246,
+      "medicalcosts": 2681,
+      "housingcosts": 8136,
+      "taxcosts": 6263
     },
-    "povertyRate": 13.7,
-    "costOfLiving": {
-      "living_wage": 14.55,
-      "food_costs": 3246,
-      "medical_costs": 2681,
-      "housing_costs": 8136,
-      "tax_costs": 6263
-    }
+    "landareakm2": 1565.601892,
+    "areakm2": 1596.319707
   }
 }
 ```
