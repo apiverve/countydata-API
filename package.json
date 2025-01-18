@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/countydata",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "County Data is a simple tool for getting data about US counties. It returns information such as average income, area, and more based on the county name provided.",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,13 @@
   },
   "homepage": "https://apiverve.com/marketplace/api/countydata?utm_source=npm",
   "devDependencies": {
-    "mocha": "^10.7.3",
-    "chai": "^5.1.1",
-    "dotenv": "^16.4.5"
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.7"
+    "axios": "1.7.9"
   }
 }
